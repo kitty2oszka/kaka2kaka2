@@ -94,7 +94,7 @@ encoding="utf-8"?>
 
     <ImageButton
         android:id="@+id/android"
-        android:layout_width="100dp"
+        android:layout_width="130dp"
         android:layout_height="72dp"
         android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -107,8 +107,8 @@ encoding="utf-8"?>
     <Button
         android:id="@+id/chce"
         style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="271dp"
-        android:layout_height="79dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:layout_marginEnd="36dp"
         android:layout_marginBottom="16dp"
         android:text="CHCĘ"
@@ -133,7 +133,7 @@ encoding="utf-8"?>
     <EditText
         android:id="@+id/inputkredyt"
         android:layout_width="198dp"
-        android:layout_height="48dpdp"
+        android:layout_height="48dp"
         android:layout_marginTop="300dp"
         android:ems="10"
         android:hint="wpisz kwotę kredytu"
@@ -205,6 +205,27 @@ encoding="utf-8"?>
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/seekBar2" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Result"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchFixedRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Fixed Rate"
+        app:layout_constraintTop_toBottomOf="@+id/resultTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
