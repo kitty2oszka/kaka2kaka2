@@ -1,0 +1,14 @@
+<?xml version="1.0"
+encoding="utf-8"?>
+<resources>
+    <string name="app_name">oszkacalculus</string>
+    <string name="kliknijwguzik">Przejdz dalej</string>
+    <string name="nailewdni">Na ile dni?</string>
+    <string name="kwota">Kwota kredytu [PLN]</string>
+    <integer name="minkredyt">100</integer>
+    <integer name="maxkredyt">6000</integer>
+    <integer name="maxdni">90</integer>
+    <integer name="mindni">1</integer>
+    <string name="enter_loan_amount">Wpisz kwotę kredytu</string>
+</resources>
+
